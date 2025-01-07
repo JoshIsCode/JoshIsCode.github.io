@@ -1,0 +1,59 @@
+
+[
+    {
+        "id": 1,
+        "name": "Backpoka Executive",
+        "description": "The ultimate work-anywhere backpack with innovative features.",
+        "price": "$150",
+        "image": "images/backpack_with_pillow.png",
+        "details": "The Backpoka Executive offers a multi-use pillow, foldable lapdesk, and 20,000 mAh charger to cater to business travelers and students."
+    },
+    {
+        "id": 2,
+        "name": "Backup Battery - Standard",
+        "description": "Reliable and compact backup battery for everyday use.",
+        "price": "$50",
+        "image": "images/battery.png",
+        "details": "This 10,000 mAh battery is perfect for charging your devices on the go."
+    },
+    {
+        "id": 3,
+        "name": "Backup Battery - Pro",
+        "description": "High-capacity backup battery for power users.",
+        "price": "$75",
+        "image": "images/battery.png",
+        "details": "With 20,000 mAh capacity, this battery can charge multiple devices simultaneously."
+    },
+    {
+        "id": 4,
+        "name": "Lapdesk Backplate - Standard",
+        "description": "Standard lapdesk backplate for quick use.",
+        "price": "$40",
+        "image": "images/lapdesk.png",
+        "details": "A lightweight and durable backplate that transforms your backpack into a lapdesk."
+    },
+    {
+        "id": 5,
+        "name": "Lapdesk Backplate - Pro",
+        "description": "Advanced lapdesk backplate for enhanced comfort.",
+        "price": "$60",
+        "image": "images/lapdesk.png",
+        "details": "Ergonomic design with premium materials for ultimate productivity on the go."
+    },
+    {
+        "id": 6,
+        "name": "Travel Pillow - Compact",
+        "description": "Compact pillow for light travelers.",
+        "price": "$25",
+        "image": "images/backpack_with_pillow.png",
+        "details": "Designed for portability, this pillow ensures comfort on short trips."
+    },
+    {
+        "id": 7,
+        "name": "Travel Pillow - Deluxe",
+        "description": "Deluxe pillow for extended comfort.",
+        "price": "$35",
+        "image": "images/backpack_with_pillow.png",
+        "details": "Soft and supportive, this pillow is perfect for long journeys."
+    }
+]

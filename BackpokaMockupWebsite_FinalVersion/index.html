@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backpoka - A Better Pack for Any Job</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="loadProducts()">
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="images/backpoka_logo.png" alt="Backpoka Logo" style="height: 40px; vertical-align: middle;">
+            <h1>Backpoka</h1>
+        </div>
+        <ul>
+            <li class="sel"><a href="index.html">Home</a></li>
+            <li><a href="executive.html">Gallery</a></li>
+            <li><a href="index.html#store">Store</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" style="background-image: url('images/backpack_with_pillow.png'); height: 60vh;">
+        <div class="hero-content">
+            <h1>A Better Pack for Any Job</h1>
+            <a href="executive.html" class="cta-button">Discover the Backpoka Executive</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Backpoka</h2>
+        <p>At Backpoka we are revelutionizing the way people view backpacks. A backpack is more than a bag to carry your items. Having a backpack that meets your needs is crucial to succsefuly fulfill your dreams. From hobbies to carears, Backpoka is working on making an innovative backpack for you.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="feature" class="about">
+        <div class="text">
+            <h2>Executive</h2>
+            <p>Backpoka redefines the way you carry your essentials, blending innovation, style, and functionality. Whether you're a student or a professional, Backpoka is your go-to solution for working anywhere.</p>
+        </div>
+
+        <div class="image">
+            <div onclick="goToFeature(this,'executive.html')" style="background-image: url('images/backpack_with_pillow.png');" alt="Backpoka Executive"></div> 
+        </div>
+        
+    </section>
+
+    <!-- Quotes Carousel -->
+    <section id="reviews" class="quotes-carousel">
+        <div class="quote">
+            <p>"The Backpoka Executive is a game-changer! Perfect for my business trips."</p>
+            <span>★★★★★ - Alex Johnson</span>
+        </div>
+        <div class="quote">
+            <p>"I love the design and functionality. It's my favorite backpack for college."</p>
+            <span>★★★★★ - Emily Smith</span>
+        </div>
+        <div class="quote">
+            <p>"This backpack is everything I needed and more. Worth every penny!"</p>
+            <span>★★★★★ - Jordan Lee</span>
+        </div>
+    </section>
+
+    <!-- Store Section -->
+    <section id="store" class="products">
+        <h2>Store</h2>
+        <div id="product-grid"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Backpoka. All rights reserved.</p>
+        <div class="socials">
+            <a href="https://instagram.com/backpoka_" target="_blank">Instagram: @backpoka_</a>
+            <p><a href="mailto:backpokateam@gmail.com">backpokateam@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
